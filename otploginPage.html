@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/otploginPage.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="left-nav">
+            <a href="homePage.html" target="_blank">
+                <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png">
+            </a>
+        </div>
+        <div class="middle-nav">
+            <div><a href="job.html">Jobs</a></div>
+            <div><a href="companiesPage.html">Companies</a></div>
+            <div><a href="servicePage.html">Services</a></div>
+            <div><a href="#">Resources</a></div>
+        </div>
+        <div class="right-nav">
+            <a href="loginPage.html"><button class="loginbtn">Login</button></a>
+            <a href="registerPage.html"><button class="registerbtn">Register</button></a>
+            <div id="pipe"></div>
+            <div id="emp"><a href="adminlogin.html">For admin</a></div><span class="drpdwn"></span>
+        </div>
+    </div>
+    <div id="container">
+        <div id="feature" class="slide">
+            <h3>New to Naukri</h3>
+            <ul id="point">
+                <li>One click apply using naukri profile.</li>
+                <li>Get relevant job recommendations.</li>
+                <li>Showcase profile to top companies and consultants.</li>
+                <li>Know application status on applied jobs.</li>
+            </ul>
+            <div onclick="window.location.href='registerPage.html'" id="register">Register Now</div>
+            <!-- <input type="submit" value="Register for Free" id="submit"> -->
+            <div id="symRegister">
+                <img src="https://static.naukimg.com/s/5/105/i/register.png" class="registerimage">
+            </div>
+        </div>
+        <div class="form" id="form">
+            <h1>Login</h1>
+            <input type="email" id="email" placeholder="Enter Your Email here">
+            <button class="btn" onclick="sendOTP()">Send OTP</button>
+            <input type="text" class="otpverify" id="otp_inp" placeholder="Enter the OTP ">
+            <button class="btn" id="otp_btn"><a href="LoginPage-2.html">Verify</a></button>
+            <!-- <div class="otpverify"></div>        -->
+        </div>
+    </div>
+
+    <script src="Scripts/otploginPage.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
