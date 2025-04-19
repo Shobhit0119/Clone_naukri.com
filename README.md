@@ -50,8 +50,6 @@ Service Page : <br>
 admin login page : <br>
 ![admin login](https://user-images.githubusercontent.com/62326876/208615574-c99ea444-002c-477f-aa17-9c85f49da548.png) <br>
 
-admin access page : <br>
-![admin access](https://user-images.githubusercontent.com/62326876/208615684-75102a15-9e0e-4a51-aa2b-d6b0a5d58a12.png)
 
 
 
