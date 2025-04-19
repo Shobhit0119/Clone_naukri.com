@@ -2,8 +2,7 @@
 A responsive Indian employment website website built with Node.js. Features include user authentication, list of jobs, and Block/UnBlock Users.
 Clone of Naukri.com website where user is able to see different job openings and can apply to various companies.<br>
 
-use this http for backend datas 
-http://localhost:5000/users
+
 
 Installing npm :<br>
 1.npm init -y -> it will create package.json <br>
@@ -13,11 +12,6 @@ Installing npm :<br>
 
 
 
-netlify link : <br>
-https://cerulean-tarsier-3cdce4.netlify.app/   <br>
-
-github link: <br>
-https://github.com/SakthivelMadhu/-lazy-base-8555   <br>
 
 
 Features Used : <br>
